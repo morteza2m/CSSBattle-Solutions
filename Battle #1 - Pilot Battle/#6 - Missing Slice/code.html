@@ -1,0 +1,58 @@
+<!-- #6 - Missing Slice -->
+
+<div class="box_circle">
+  <div class="body_div">
+    <div class="item"></div>
+  </div>
+  <div class="body_div">
+    <div class="item"></div>
+  </div>
+</div>
+<style>
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    background: #e3516e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box_circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+
+  .body_div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body_div:first-child .item {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #51b5a9 50%, #fade8b 50%);
+  }
+
+  .body_div:last-child .item {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f7f3d7 50%, transparent 50%);
+  }
+</style>

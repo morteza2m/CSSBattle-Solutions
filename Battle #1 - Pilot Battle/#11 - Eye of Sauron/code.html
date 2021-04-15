@@ -1,0 +1,98 @@
+<!-- #11 - Eye of Sauron -->
+
+<div class="body_div">
+  <div class="box_one">
+    <div class="half_circle_01"></div>
+  </div>
+  <div class="box_two">
+    <div class="circle_01"></div>
+  </div>
+  <div class="box_three">
+    <div class="half_circle_02"></div>
+  </div>
+</div>
+<style>
+  body,
+  html {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body {
+    width: 100%;
+    height: 100%;
+    background: #191210;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body_div {
+    width: 300px;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .box_one {
+    width: 110px;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_two {
+    width: 140px;
+    height: 100%;
+    z-index: 2;
+    margin: 0 -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_three {
+    width: 110px;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle_01 {
+    width: 50px;
+    height: 50px;
+    background: #84271c;
+    border-radius: 100%;
+    box-shadow: 0 0 0 25px #191210, 0 0 0 45px #eca03d;
+  }
+
+  .half_circle_02 {
+    width: 60px;
+    height: 60px;
+    border: 20px solid #eca03d;
+    border-radius: 50%;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotate(-45deg);
+  }
+
+  .half_circle_01 {
+    width: 60px;
+    height: 60px;
+    border: 20px solid #eca03d;
+    border-radius: 50%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotate(-45deg);
+  }
+</style>
