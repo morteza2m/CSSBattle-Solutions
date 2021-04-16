@@ -14,7 +14,7 @@
 - #12 - Wiggly Moustache ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
 
 
-## Battle #2 - Visibility Finished
+## Battle #2 - Visibility
 - #13 - Totally Triangle ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
 - #14 - Web Maker Logo ![Generic badge](https://img.shields.io/badge/match-99.8-27ae60.svg)
 - #15 - Overlap ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
@@ -23,6 +23,6 @@
 - #18 - Matrix ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
 
 
-## Battle #3 - Cursor Finished
+## Battle #3 - Cursor
 - #19 - Cube ![Generic badge](https://img.shields.io/badge/match-99.9-27ae60.svg)
 - #20 - Ticket ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
