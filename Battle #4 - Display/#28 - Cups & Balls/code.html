@@ -1,0 +1,74 @@
+<!--#28 - Cups & Balls-->
+
+<div class="body_box">
+    <div class="circle color_1"></div>
+    <div class="rounded_top color_2"></div>
+    <div class="rounded_top color_1"></div>
+    <div class="circle color_2"></div>
+</div>
+
+<div class="body_box flex_end">
+    <div class="rounded_bottom color_2"></div>
+    <div class="circle color_1"></div>
+    <div class="circle color_2"></div>
+    <div class="rounded_bottom color_1"></div>
+</div>
+
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+    }
+    body {
+        background: #1A4341;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_box {
+        width: 260px;
+        height: 60px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .body_box.flex_end {
+        align-items: flex-end;
+    }
+
+    .color_1 {
+        background: #998235;
+    }
+
+    .color_2 {
+        background: #F3AC3C;
+    }
+
+    :root {
+        --size-box: 50px;
+    }
+
+    .circle {
+        width: var(--size-box);
+        height: var(--size-box);
+        border-radius: 100%
+    }
+    .rounded_top {
+        width: var(--size-box);
+        height: var(--size-box);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+    .rounded_bottom {
+        width: var(--size-box);
+        height: var(--size-box);
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+    }
+</style>

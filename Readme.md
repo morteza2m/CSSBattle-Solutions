@@ -26,3 +26,42 @@
 ## Battle #3 - Cursor
 - #19 - Cube ![Generic badge](https://img.shields.io/badge/match-99.9-27ae60.svg)
 - #20 - Ticket ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+
+
+## Battle #4 - Display
+- #21 - SitePoint Logo ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #22 - Cloud ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #23 - Boxception ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #24 - Switches ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #25 - Blossom ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #26 - Smiley ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #27 - Lock Up ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #28 - Cups & Balls ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+
+## Battle #5 - Inline
+- #29 - Suffocate ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+- #30 - Horizon ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+
+## Battle #6 - Conic
+
+
+## Battle #7 - Backface
+
+
+## Battle #8 - Transition
+
+
+## Battle #9 - Margin
+
+
+## Battle #10 - Block
+
+
+## Battle #11 - Overflow
+
+
+## Battle #12 - Blend
+- #65 - Max Volume ![Generic badge](https://img.shields.io/badge/match-100-27ae60.svg)
+
+
+## Battle #13 - Clip

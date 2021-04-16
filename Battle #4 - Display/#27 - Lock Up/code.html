@@ -1,0 +1,57 @@
+<!--#27 - Lock Up-->
+
+<div class="center_circle">
+    <div class="center_point"></div>
+    <div class="hide_1"></div>
+    <div class="hide_2"></div>
+</div>
+
+
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+    }
+    body {
+        background: #E38F66;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center_circle {
+        background: #AA445F;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .center_point {
+        width: 80px;
+        height: 80px;
+        background: transparent;
+        border-radius: 100%;
+        border: 30px solid #F7EC7D;
+    }
+
+    .hide_1, .hide_2 {
+        position: absolute;
+        background: #AA445F;
+        width: 100px;
+        height: 100px;
+        top: 0; left: 0;
+        border-top-left-radius: 100%;
+    }
+
+    .hide_2 {
+        border-radius: 0 0 100% 0;
+        bottom: 0;
+        right: 0;
+        top: auto;
+        left: auto;
+    }
+</style>

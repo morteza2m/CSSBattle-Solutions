@@ -1,0 +1,73 @@
+<!--#21 - SitePoint Logo-->
+
+<div class="body_box">
+    <div class="item_column bg_color_1"></div>
+    <div class="item_row bg_color_1"></div>
+    <div class="item_row bg_color_2"></div>
+    <div class="item_column bg_color_2"></div>
+</div>
+
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+    }
+    body {
+        background: #222;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_box {
+        width: 130px;
+        height: 90px;
+        position: relative;
+        transform: rotate(45deg);
+    }
+
+    .bg_color_1 {
+        background: #F2994A;
+    }
+
+    .bg_color_2 {
+        background: #2D9CDB;
+    }
+
+    .item_column {
+        width: 30px;
+        height: 100px;
+        position: absolute;
+    }
+
+    .item_column.bg_color_1 {
+        margin-top: -14px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .item_column.bg_color_2 {
+        right: 0px;
+        top: 4px;
+        border-top-right-radius: 10px;
+    }
+
+    .item_row {
+        height: 30px;
+        width: 70px;
+        position: absolute;
+    }
+    .item_row.bg_color_1 {
+        bottom: 4px;
+        left: 10px;
+        border-top-right-radius: 5px;
+    }
+
+    .item_row.bg_color_2 {
+        top: 4px;
+        right: 10px;
+        border-bottom-left-radius: 5px;
+    }
+</style>
