@@ -1,0 +1,69 @@
+<!--#15 - Overlap-->
+
+<div class="row_box">
+    <div class="circle_01"></div>
+    <div class="circle_02"></div>
+</div>
+
+<div class="overlap">
+    <div class="row_box">
+        <div class="circle_03"></div>
+    </div>
+</div>
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+
+    }
+    body {
+        background: #09042A;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row_box {
+        width: 100%;
+        height: 150px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .circle_01,.circle_02 {
+        width: 150px; height: 150px;
+        background: #7B3F61;
+        border-radius: 100%;
+    }
+    .circle_02 {
+        background: #E78481;
+        margin-left: -50px;
+    }
+
+    .overlap {
+        position: fixed;
+        top: 0; left: 0; width: 100%; height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .overlap .row_box {
+        width: auto;
+        transform: scaleX(1.06);
+    }
+
+    .circle_03 {
+        width: 80px; height: 80px;
+        background: #09042A;
+        border-top-right-radius: 100%;
+        border-bottom-left-radius: 100%;
+        transform: rotate(45deg);
+    }
+</style>
