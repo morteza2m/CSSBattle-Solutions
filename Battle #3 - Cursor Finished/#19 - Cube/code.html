@@ -1,0 +1,59 @@
+<!--#19 - Cube-->
+
+<div class="body_box">
+    <div class="box_right"></div>
+    <div class="box_center"></div>
+    <div class="box_left"></div>
+</div>
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+
+    }
+    body {
+        background: #0B2429;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_box {
+        width: 100%;
+        height: 210px;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box_right {
+        width: 100px;
+        height: 50px;
+        background: #998235;
+        transform: rotate(-45deg) skewX(-45deg);
+        margin-right: -15px;
+        margin-top: -71px;
+    }
+
+    .box_left {
+        width: 100px;
+        height: 50px;
+        background: #1A4341;
+        transform: rotate(45deg) skewX(45deg);
+        margin-left: -14px;
+        margin-top: -71px;
+    }
+
+    .box_center {
+        width: 100px;
+        height: 100px;
+        background: #F3AC3C;
+        transform: rotate(45deg);
+        margin: 0 -50px;
+        margin-bottom: -70px;
+    }
+</style>

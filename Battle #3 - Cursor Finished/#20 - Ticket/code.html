@@ -1,0 +1,71 @@
+<!--#20 - Ticket-->
+
+<div class="body_box">
+    <div class="cut_o1"></div>
+    <div class="cut_o2"></div>
+    <div class="cut_o3"></div>
+    <div class="cut_o4"></div>
+    <div class="cut_o5"></div>
+    <div class="cut_o6"></div>
+</div>
+<style>
+    html, body {
+        width: 100%; height: 100%;
+        padding: 0; margin: 0;
+    }
+    body {
+        background: #62306D;
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body_box {
+        position: relative;
+        width: 200px;
+        height: 100px;
+        background: linear-gradient(to right, #F7EC7D 70%, #E38F66 70%);
+    }
+
+    :root {
+        --size-box: 40px;
+        --half-size-box: -20;
+    }
+
+    .cut_o1, .cut_o2, .cut_o3, .cut_o4, .cut_o5, .cut_o6 {
+        position: absolute;
+        top: var(--half-size-box);
+        left: var(--half-size-box);
+        width: var(--size-box);
+        height: var(--size-box);
+        background: #62306D;
+        border-radius: 100%;
+    }
+
+    .cut_o2 {
+        top: auto; bottom: var(--half-size-box);
+    }
+
+    .cut_o3, .cut_o4 {
+        left: calc(70% - 10px);
+        width: 20px; height: 20px;
+        top: -10px;
+    }
+
+    .cut_o4 {
+        top: auto; bottom: -10px;
+    }
+
+
+    .cut_o5 {
+        left: auto; right: var(--half-size-box);
+    }
+
+    .cut_o6 {
+        left: auto; right: var(--half-size-box);
+        top: auto; bottom: var(--half-size-box);
+    }
+</style>
